@@ -4,4 +4,11 @@ version = "0.1.0"
 authors = ["Thorben Kroeger <thorbenkroeger@gmail.com>"]
 
 [dependencies]
+libc = "*"
+image = "*"
 mozjpeg-sys = "*"
+
+#[dependencies.mozjpeg-sys]
+#path = "/home/thorben/docs/devel/mozjpeg-sys"
+
+
